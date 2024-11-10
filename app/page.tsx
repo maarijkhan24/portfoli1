@@ -5,15 +5,16 @@ import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
 import Skills from "@/components/Skills";
 
+
 export default function Home() {
   return (
     <div>
-     < Nav/>
-     <Hero/>
-     <About/>
-     <Skills/>
-     <Contact/>
-     <Footer/>
+    <Nav/>
+    <Hero/>
+    <About/>
+    <Skills/>
+    <Contact/>
+    <Footer/>
     </div>
   );
 }
