@@ -1,4 +1,5 @@
 import Image from "next/image"
+import img from "/public/image.png"
 import react from "react"
 const About = ()=>{
     return (
@@ -28,7 +29,7 @@ const About = ()=>{
       <Image
         className="object-cover object-center rounded"
         alt="hero"
-        src={"/image.png"}
+        src={img}
       />
     </div>
   </div>
