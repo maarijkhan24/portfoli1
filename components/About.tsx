@@ -1,6 +1,5 @@
 import Image from "next/image"
 import react from "react"
-import imgg from "../../public/image.png"
 const About = ()=>{
     return (
         <section className="text-gray-600 body-font" id="about">
@@ -29,7 +28,7 @@ const About = ()=>{
       <Image
         className="object-cover object-center rounded"
         alt="hero"
-        src={imgg}
+        src={"/image.png"}
       />
     </div>
   </div>
