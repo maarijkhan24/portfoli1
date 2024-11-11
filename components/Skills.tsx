@@ -1,15 +1,15 @@
-
 // components/Skills.js
-const skills  = [
+import React from "react";
+
+const skills = [
   { name: "JavaScript", level: 90 },
   { name: "React", level: 80 },
   { name: "Next.js", level: 85 },
   { name: "Tailwind CSS", level: 75 },
 ];
 
-
 export default function Skills() {
-  return  (
+  return (
     <div id="skill" className="flex justify-center items-center min-h-screen bg-white dark:bg-sky-900">
       <div className="p-8 space-y-6 w-full max-w-lg bg-white dark:bg-gray-800 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold text-center text-blue-500 mb-6">My Skills</h2>
