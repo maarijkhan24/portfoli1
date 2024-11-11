@@ -1,4 +1,4 @@
-{
+{ 
   "root": true,
   "extends": "next/core-web-vitals",
   "rules": {
@@ -11,4 +11,4 @@
     "no-alert": "off",
     "react/no-unescaped-entities": "off"
   }
-}
+ }
